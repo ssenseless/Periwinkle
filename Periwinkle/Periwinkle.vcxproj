@@ -59,6 +59,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PW_PLATFORM_WINDOWS;PW_BUILD_DLL;_WINDLL;$(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Periwinkle\third_party\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -73,6 +74,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>PW_PLATFORM_WINDOWS;PW_BUILD_DLL;_WINDLL;$(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Periwinkle\third_party\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,9 +84,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Periwinkle\Log.cpp" />
     <ClCompile Include="src\Periwinkle\Application.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Periwinkle\Log.h" />
     <ClInclude Include="src\Periwinkle.h" />
     <ClInclude Include="src\Periwinkle\Application.h" />
     <ClInclude Include="src\Periwinkle\Core.h" />

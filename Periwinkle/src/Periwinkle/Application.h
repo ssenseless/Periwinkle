@@ -3,7 +3,6 @@
 #include "Core.h"
 
 namespace Periwinkle {
-
 	class PERIWINKLE_API Application {
 	public:
 		Application();
