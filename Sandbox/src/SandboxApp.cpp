@@ -11,7 +11,6 @@ public:
 	}
 };
 
-void main() {
-	Sandbox* sandbox = new Sandbox();
-	sandb
+Periwinkle::Application* Periwinkle::CreateApplication() {
+	return new Sandbox();
 }

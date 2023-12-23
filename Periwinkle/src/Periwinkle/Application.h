@@ -12,5 +12,7 @@ namespace Periwinkle {
 		void Run();
 	};
 
+	//requires client definition
+	Application* CreateApplication();
 }
 
