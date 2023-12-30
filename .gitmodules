@@ -1,3 +1,6 @@
 [submodule "Periwinkle/third_party/spdlog"]
 	path = Periwinkle/third_party/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Periwinkle/extern/spdlog"]
+	path = Periwinkle/extern/spdlog
+	url = https://github.com/gabime/spdlog.git
