@@ -11,11 +11,13 @@ int main(int argc, char** argv) {
 	PW_CORE_INFO("HELP");
 	PW_CORE_WARN("HELP");
 	PW_CORE_ERROR("HELP");
+	PW_CORE_CRITICAL("HELP");
 
 	PW_TRACE("HELP");
 	PW_INFO("HELP");
 	PW_WARN("HELP");
 	PW_ERROR("HELP");
+	PW_CRITICAL("HELP");
 
 	auto app = Periwinkle::CreateApplication();
 	

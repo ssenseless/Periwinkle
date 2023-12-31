@@ -25,11 +25,11 @@ namespace Periwinkle {
 #define PW_CORE_INFO(...) ::Periwinkle::Log::get_core_logger()->info(__VA_ARGS__)
 #define PW_CORE_WARN(...) ::Periwinkle::Log::get_core_logger()->warn(__VA_ARGS__)
 #define PW_CORE_ERROR(...) ::Periwinkle::Log::get_core_logger()->error(__VA_ARGS__)
-#define PW_CORE_FATAL(...) ::Periwinkle::Log::get_core_logger()->fatal(__VA_ARGS__)
+#define PW_CORE_CRITICAL(...) ::Periwinkle::Log::get_core_logger()->critical(__VA_ARGS__)
 
 //client log macros
 #define PW_TRACE(...) ::Periwinkle::Log::get_client_logger()->trace(__VA_ARGS__)
 #define PW_INFO(...) ::Periwinkle::Log::get_client_logger()->info(__VA_ARGS__)
 #define PW_WARN(...) ::Periwinkle::Log::get_client_logger()->warn(__VA_ARGS__)
 #define PW_ERROR(...) ::Periwinkle::Log::get_client_logger()->error(__VA_ARGS__)
-#define PW_FATAL(...) ::Periwinkle::Log::get_client_logger()->fatal(__VA_ARGS__)
+#define PW_CRITICAL(...) ::Periwinkle::Log::get_client_logger()->critical(__VA_ARGS__)

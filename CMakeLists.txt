@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(Periwinkle)
+project(periwinkle)
 
 add_subdirectory(Periwinkle)
 add_subdirectory(Sandbox)
