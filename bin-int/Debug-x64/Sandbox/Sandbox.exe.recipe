@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\dev\periwinkle\periwinkle\bin\Debug-x64\Periwinkle\Periwinkle.dll</FullPath>
+      <FullPath>C:\dev\periwinkle\bin\Debug-x64\Periwinkle\Periwinkle.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\dev\periwinkle\periwinkle\bin\Debug-x64\Sandbox\Sandbox.exe</FullPath>
+      <FullPath>C:\dev\periwinkle\bin\Debug-x64\Sandbox\Sandbox.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

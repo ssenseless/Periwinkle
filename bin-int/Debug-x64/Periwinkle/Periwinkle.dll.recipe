@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\dev\periwinkle\periwinkle\bin\Debug-x64\Periwinkle\Periwinkle.dll</FullPath>
+      <FullPath>C:\dev\periwinkle\bin\Debug-x64\Periwinkle\Periwinkle.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

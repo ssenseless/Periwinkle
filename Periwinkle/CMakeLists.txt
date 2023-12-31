@@ -9,6 +9,6 @@ add_library(Periwinkle SHARED
 
 	src/Periwinkle.h)
 
-target_include_directories(Periwinkle PUBLIC extern/spdlog/include)
+target_include_directories(Periwinkle PUBLIC extern/spdlog/include/)
 
-target_compile_definitions(Periwinkle PUBLIC PW_PLATFORM_WINDOWS PUBLIC PW_BUILD_DLL)
+target_compile_definitions(Periwinkle PUBLIC PW_PLATFORM_WINDOWS PRIVATE PW_BUILD_DLL)
